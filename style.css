@@ -1,5 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.heading{
+    font-family: 'Poppins';
+    text-align: center;
+    margin: 1rem 1rem;
+    background-color:#FDE68A ;
+    border-radius: 1rem;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+}
+.input-div{
+    align-items: center;
+    display: flex;
+    place-content: center;
+    margin-bottom: 2rem;
+}
+.buttonDiv{
+    display: flex;
+    place-content: center;
+}
+
+#t-button{
+    height: 3rem;
+    width: 9rem;
+    font-weight: bold;
+    border: 1rem;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    background-color:#FDE68A ;
+}
+#t-input{
+    height: 30vh;
+    width: 80%;
+    font-size: 2rem;
+    font-family: 'Caveat', cursive;
+    border: 2px solid black;
+    border-radius: 1rem;
+    box-shadow: 10px 9px 5px -7px rgba(33,4,4,0.51);
+}
 .output-div{
-    height: 10vh;
-    width: 50%;
-    border: 1px solid black;
+    display: flex;
+    place-content: center;
+    margin: 1rem 1rem;
+}
+#t-output{
+    height: 30vh;
+    width: 80%;
+    border: 2px solid red;
+    box-shadow: 10px 9px 5px -7px rgba(237,44,44,0.51);
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-family: 'Caveat', cursive;
+}
+#t-button:hover{
+    border: 1px solid red;
+    box-shadow: 10px 9px 5px -7px rgba(237,44,44,0.51);
+    color: red;
+}
+.heading:hover{
+    color: red;
+}
+.footer{
+    background-color:#fbbe24c2 ;
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+
+}
+.fas{
+    font-size: 1.4rem;
 }
